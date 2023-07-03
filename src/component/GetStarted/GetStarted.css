@@ -1,0 +1,42 @@
+.g-wrapper {
+    width: 100%;
+}
+.g-container {
+    width: 100%;
+}
+.g-container.innerWidth {
+    max-width: 100%;
+}
+.inner-container{
+    width: 100%;
+    background: #4161df;
+    padding: 3rem 4rem;
+    border-radius: 30px 30px 0 0;
+    /* border: 6px solid #5d77d6; */
+    text-align: center;
+}
+.inner-container .primaryText{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+.inner-container .secondaryText{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.inner-container .button{
+    background: #5a73d7;
+    border:2px solid white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 570px) {
+    .inner-container{
+        padding: 3rem 1.5rem 2.5rem;
+    }
+}
